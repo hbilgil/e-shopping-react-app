@@ -10,9 +10,9 @@ const Main = () => {
 }
 
 const MainWrapper = styled.div`
-    margin: 0px auto; 
-    box-sizing: border-box;
-    min-height: 78vh;
+  margin: 0px auto; 
+  box-sizing: border-box;
+  min-height: 78vh;
 `;
 
 export default Main;
