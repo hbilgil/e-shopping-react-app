@@ -16,7 +16,7 @@ export type LordIconTrigger =
 export type LordIconProps = {
   src?: string;
   trigger?: LordIconTrigger;
-  size?: string;
+  size?: number;
 };
 
 export const LordIcon = ({
@@ -28,10 +28,11 @@ export const LordIcon = ({
     <lord-icon
       src={src}
       trigger={trigger}
-      style={{
-        width: size,
-        height: size,
-      }}
+      style={
+        {width: size, 
+        height: size
+        }
+      }
     />
   );
 };
