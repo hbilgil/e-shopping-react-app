@@ -22,15 +22,15 @@ const Footer = () => {
             </SubscribeForm>
         </SubscribeDiv>
         <LinksDiv>
-            <>
+            <Section>
                 <LinksHeading>
                     FashionGuru
                 </LinksHeading>
                 <LinksPara>
                     <LinksLink href="#">About Us</LinksLink>
                 </LinksPara>
-            </>
-            <>
+            </Section>
+            <Section>
                 <LinksHeading>
                     Contact
                 </LinksHeading>
@@ -42,7 +42,7 @@ const Footer = () => {
                         Github
                     </LinksLink>
                 </LinksAltDiv>
-            </>
+            </Section>
         </LinksDiv>
     </FooterContainer>
   )
@@ -122,6 +122,12 @@ const LinksDiv = styled.div`
     }
 `;
 
+const Section = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+`;
+
 const LinksHeading = styled.div`
     margin: 0;
     font-size: 1.2rem;
@@ -150,7 +156,7 @@ const LinksLink = styled.a`
 `;
 
 const LinksAltDiv = styled.div`
-     display: flex;
+    display: flex;
     gap: 1rem;
     margin-top: 1rem;
     flex-direction: column;
