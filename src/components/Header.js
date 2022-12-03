@@ -30,10 +30,7 @@ const Header = () => {
                 <LordIcon
                 src={"https://cdn.lordicon.com/slkvcfos.json"}
                 trigger={"hover"}
-                style={{
-                    width: "100px",
-                    height: "100px"
-                    }}>
+                size={40}>
                 </LordIcon>
                 <CartPara>
                     1
