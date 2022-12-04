@@ -1,10 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
+import About from './About/About';
 
 const Main = () => {
   return (
     <MainWrapper>
-
+      <About></About>
     </MainWrapper>
   )
 }
