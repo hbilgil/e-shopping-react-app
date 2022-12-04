@@ -6,8 +6,8 @@ import AboutDiv2 from './About-div2';
 const About = () => {
     return (
         <AboutWrapper>
-            <AboutDiv1></AboutDiv1>
-            <AboutDiv2></AboutDiv2>
+            <AboutDiv1/>
+            <AboutDiv2/>
         </AboutWrapper>
     )
 }
