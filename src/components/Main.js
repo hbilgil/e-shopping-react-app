@@ -1,11 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 import About from './About/About';
+import Home from './Home/Home';
 
 const Main = () => {
   return (
     <MainWrapper>
-      <About></About>
+      <Home/>
+      <About/>
     </MainWrapper>
   )
 }
