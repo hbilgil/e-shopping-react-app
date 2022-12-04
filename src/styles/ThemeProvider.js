@@ -14,6 +14,10 @@ const Theme = {
       homeDivShopBtnHover: "#ffebcd",
       homeDiv2CardBackground: "#ececec",
       homeDiv2CardTextBackground: "rgb(83, 83, 83)",
+      categoriesSelectionBackground: "#454857",
+      categoriesInputColor: "#bdbdbdbd",
+      searchInputFocus: "#ffdcd357",
+      cardsDetailsColor: "#dcdcdc",
     },
 };
   
