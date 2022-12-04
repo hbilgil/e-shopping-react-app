@@ -10,6 +10,10 @@ const Theme = {
       aboutText1: "#f5a7a7",
       aboutText2: "#fad7b0",
       aboutText3: "#b0d3fa",
+      homeDivContainer: "#0000006c",
+      homeDivShopBtnHover: "#ffebcd",
+      homeDiv2CardBackground: "#ececec",
+      homeDiv2CardTextBackground: "rgb(83, 83, 83)",
     },
 };
   
