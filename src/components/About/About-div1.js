@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import backgroundImage from '../../assets/background-images/about-div1-image.jpeg';
+import backgroundImage from '../../assets/background-images/about-div1.jpeg';
 
 const AboutDiv1 = () => {
     return (
