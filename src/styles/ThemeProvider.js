@@ -18,7 +18,10 @@ const Theme = {
       categoriesInputColor: "#bdbdbdbd",
       searchInputFocus: "#ffdcd357",
       cardsDetailsColor: "#dcdcdc",
+      emptyCardBtnHover: "#ff8567",
+      crimson: "#dc143c",
+      disabledBtn: "rgb(182, 182, 182)",
     },
 };
-  
+
 export default Theme;
