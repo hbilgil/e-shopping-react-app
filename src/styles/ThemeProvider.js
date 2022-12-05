@@ -21,6 +21,8 @@ const Theme = {
       emptyCardBtnHover: "#ff8567",
       crimson: "#dc143c",
       disabledBtn: "rgb(182, 182, 182)",
+      productSizeSelectionBackground: "#d3e6ffe4",
+      addToCartButtonHover: "#1d1d1db4",
     },
 };
 
