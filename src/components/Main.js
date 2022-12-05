@@ -4,10 +4,12 @@ import About from './About/About';
 import Home from './Home/Home';
 import Shop from './Shop/Shop';
 import ShoppingCart from './Shopping Cart/ShoppingCart';
+import ProductView from './Product View/ProductView';
 
 const Main = () => {
   return (
     <MainWrapper>
+      <ProductView/>
       <ShoppingCart/>
       <Shop/>
       <Home/>
