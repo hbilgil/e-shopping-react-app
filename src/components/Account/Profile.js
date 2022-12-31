@@ -86,7 +86,7 @@ const Para = styled.p`
 `;
 
 const StrongPara = styled.strong`
-    color: crimson;
+    color: ${({ theme }) => theme.colors.crimson};
 `;
 
 
