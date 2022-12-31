@@ -23,6 +23,7 @@ const Theme = {
       disabledBtn: "rgb(182, 182, 182)",
       productSizeSelectionBackground: "#d3e6ffe4",
       addToCartButtonHover: "#1d1d1db4",
+      deepPink: "rgb(255, 20, 147)",
     },
 };
 
