@@ -24,6 +24,9 @@ const Theme = {
       productSizeSelectionBackground: "#d3e6ffe4",
       addToCartButtonHover: "#1d1d1db4",
       deepPink: "rgb(255, 20, 147)",
+      welcomeImgLink: "rgb(255, 140, 0)",
+      welcomeImgLinkHover: "rgba(75, 201, 201, 0.764)",
+
     },
 };
 
